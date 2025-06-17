@@ -4,7 +4,7 @@ import { subscriptions } from '../drizzle/schema/subscriptions'
 import { redis } from '../redis/client'
 
 interface subscribeToEventProps {
-  name: string
+  name: string 
   email: string
   referrerId?: string | null
 }
